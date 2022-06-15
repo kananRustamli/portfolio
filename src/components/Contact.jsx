@@ -13,12 +13,12 @@ const Contact = () => {
       <Section>
         <Row>
           <Item>
-            <a href="https://linkedin.com/kananrustamli">
+            <a href="https://www.linkedin.com/in/kanan-rustamli/">
               <AiFillLinkedin />
             </a>
           </Item>
           <Item>
-            <a href="https://github.com/kananrustaml">
+            <a href="https://github.com/kananRustamli">
               <AiFillGithub />
             </a>
           </Item>
