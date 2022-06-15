@@ -8,16 +8,16 @@ const Header = () => {
         <Description>Web Developer</Description>
       </TextContainer>
       <SkillContainer>
-        <Skill src="img/htmllogo.svg" alt="" />
-        <Skill src="img/csslogo.svg" alt="" />
-        <Skill src="img/jslogo.svg" alt="" />
-        <Skill src="img/reactlogo.svg" alt="" />
-        <Skill src="img/nextlogo.svg" alt="" />
-        <Skill src="img/tailwindlogo.svg" alt="" />
-        <Skill src="img/bootstraplogo.svg" alt="" />
-        <Skill src="img/gitlogo.svg" alt="" />
-        <Skill src="img/nodejslogo.svg" alt="" />
-        <Skill src="img/mongodblogo.svg" alt="" />
+        <Skill src="/img/htmllogo.svg" alt="" />
+        <Skill src="/img/csslogo.svg" alt="" />
+        <Skill src="/img/jslogo.svg" alt="" />
+        <Skill src="/img/reactlogo.svg" alt="" />
+        <Skill src="/img/nextlogo.svg" alt="" />
+        <Skill src="/img/tailwindlogo.svg" alt="" />
+        <Skill src="/img/bootstraplogo.svg" alt="" />
+        <Skill src="/img/gitlogo.svg" alt="" />
+        <Skill src="/img/nodejslogo.svg" alt="" />
+        <Skill src="/img/mongodblogo.svg" alt="" />
       </SkillContainer>
     </Container>
   );
