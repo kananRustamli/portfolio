@@ -1,5 +1,7 @@
 import tw from "tailwind-styled-components";
 
+const info = "";
+
 const AboutMe = () => {
   return (
     <Container id="about">
@@ -9,11 +11,12 @@ const AboutMe = () => {
           <Image src="/img/i.jpg" alt="" />
         </ImageContainer>
         <Paragraph>
-          I am a web developer with main focus on front-end and advanced
-          knowledge on Javascript. I can build modern web apps with React,
-          Express and mongoDB. I am a fast learner and constantly
-          self-imporving. I am very good at researching subjects I am not fully
-          familiar with and passionate about learning new skills.
+          I am a web developer with strong JavaScript knowledge. My main stack
+          is front-end but I also have fundamental back-end skills and high
+          interest on mastering MERN stack. I can build modern responsive web
+          apps with HTML/CSS, React, NextJS and connect it with back-end API. I
+          am a fast learner and constantly self-improving by researching
+          subjects I am not fully familiar with.
         </Paragraph>
       </Section>
     </Container>

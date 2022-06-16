@@ -24,7 +24,7 @@ const Header = () => {
 };
 
 const Container = tw.header`
-  h-[75vh]
+  h-screen
   flex items-center justify-center flex-col
   bg-gradient-to-t from-indigo-200 to-white z-4
   dark:bg-gradient-to-t dark:from-indigo-900 dark:to-slate-900 dar:text-white

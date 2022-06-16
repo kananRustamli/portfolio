@@ -37,7 +37,7 @@ const Contact = () => {
 };
 
 const Container = tw.div`
-  w-full h-[50vh] px-10 py-20
+  w-full h-[75vh] lg:h-[50vh] px-10 py-20
   flex items-center justify-center flex-col
   lg:flex-row
   dark:bg-slate-900 dark:text-white
