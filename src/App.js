@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 const App = () => {
   const [theme, setTheme] = useState(null);
@@ -34,6 +35,7 @@ const App = () => {
       <Header />
       <AboutMe />
       <Projects />
+      <Skills />
       <Contact />
     </>
   );

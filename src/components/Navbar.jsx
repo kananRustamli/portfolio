@@ -48,6 +48,17 @@ const Navbar = (props) => {
             </Item>
             <Item>
               <Link
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={-75}
+                duration={500}
+              >
+                Skills
+              </Link>
+            </Item>
+            <Item>
+              <Link
                 to="contact"
                 spy={true}
                 smooth={true}
@@ -103,6 +114,18 @@ const Navbar = (props) => {
           </SideItem>
           <SideItem>
             <Link
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-75}
+              duration={500}
+              onClick={() => setSidebar(false)}
+            >
+              Skills
+            </Link>
+          </SideItem>
+          <SideItem>
+            <Link
               to="contact"
               spy={true}
               smooth={true}
@@ -130,7 +153,7 @@ const MenuResponsive = tw(FiMenu)`
 `;
 const DarkMode = tw(FiMoon)`hidden md:flex w-8 h-8 p-1`;
 const DarkModeResp = tw(FiMoon)`
-  absolute w-8 h-8 right-6 bottom-4 p-1 rounded text-white z-10
+  absolute w-8 h-8 right-4 bottom-4 p-1 rounded text-white z-10
 `;
 
 const Sidebar = tw.div`
